@@ -8,7 +8,7 @@ function App() {
 
   async function getProducts() {
     try {
-      const response = await fetch(`${API_URL}/api/products`);
+      const response = await fetch(`${API_URL}/api/projects`);
 
       if (!response.ok) {
         throw new Error("Failed to fetch products");
